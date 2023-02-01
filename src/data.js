@@ -17,12 +17,12 @@ export const links = [
     icon: "fa-solid fa-utensils",
     link: "menu",
   },
-  {
-    id: 4,
-    name: "wine",
-    icon: "fa-solid fa-wine-glass",
-    link: "wine",
-  },
+  // {
+  //   id: 4,
+  //   name: "wine",
+  //   icon: "fa-solid fa-wine-glass",
+  //   link: "wine",
+  // },
   {
     id: 5,
     name: "Book",
@@ -34,6 +34,26 @@ export const links = [
     name: "contact",
     icon: "fa-solid fa-globe",
     link: "contact",
+  },
+];
+export const socialLinks = [
+  {
+    id: 1,
+    name: "facebook",
+    icon: "fa-brands fa-facebook",
+    link: "https://www.facebook.com/",
+  },
+  {
+    id: 2,
+    name: "instagram",
+    icon: "fa-brands fa-instagram",
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: 3,
+    name: "twitter",
+    icon: "fa-brands fa-twitter",
+    link: "https://twitter.com/",
   },
 ];
 

@@ -7,15 +7,15 @@ const Book = () => {
       <div className="form-container">
         <form className="form" action="">
           <div className="form-name">
-            <label for="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" name="name" id="name" placeholder="John Doe" />
           </div>
           <div className="form-phone">
-            <label for="phone">Phone:</label>
+            <label htmlFor="phone">Phone:</label>
             <input type="text" name="phone" id="phone" placeholder="12345" />
           </div>
           <div className="form-email">
-            <label for="email">Email:</label>
+            <label htmlFor="email">Email:</label>
             <input
               type="email"
               name="email"
@@ -25,7 +25,7 @@ const Book = () => {
           </div>
           <div className="form-time"></div>
           <div className="form-message">
-            <label for="message">Message:</label>
+            <label htmlFor="message">Message:</label>
             <textarea
               name="message"
               id="message"
